@@ -1,10 +1,22 @@
 {
   "name": "apm-training",
   "version": "1.0.0",
-  "description": "A sample project",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerque/apm-training-zf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Zerque/apm-training-zf/issues"
+  },
+  "homepage": "https://github.com/Zerque/apm-training-zf#readme"
 }
- 
