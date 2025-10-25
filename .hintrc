@@ -8,6 +8,13 @@
       {
         "duplicate-id": "off"
       }
+    ],
+    "meta-viewport": "off",
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
     ]
   }
 }

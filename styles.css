@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    font-family: 'inter', sans-serif;
+    background-color: #eeeaea;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(131, 125, 125);
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#Label {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.forgot-username {
+    font-size: 12px;
+    color: #124913;
+    margin-bottom: 20px;
+}
+
+.forgot-username a {
+    text-decoration: none;
+    color: #4CAF50;
+    align-items: right ;
+}
+
+.footer {
+    font-size: 12px;
+    color: #777;
+}
+
+.footer a {
+    color: #4CAF50;
+    text-decoration: none;
+
+}
+
+#content-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  box-sizing: border-box;
+}
+
+#logo-language {
+  display: flex;
+  justify-content: space-between;  /* Space between logo and language selector */
+  align-items: center;
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
+#logo-language img {
+  height: 40px; /* Set both images to the same height */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+#language-select {
+  display: flex;
+  align-items: center; /* Align align items vertically */
+  justify-content: flex-end;  /* Align language selector to the right */
+}
+
+#language-select img {
+  height: 20px; /* Adjust icon size */
+  width: auto;
+  margin-right: 8px; /* Space between the flag and the select */
+}
+
+#language-select select {
+  padding: 5px;
+  font-size: 14px;
+  border: 0px solid #ddd;
+  border-radius: 4px;
+}

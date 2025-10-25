@@ -1,0 +1,10 @@
+{
+  "name": "apm-training",
+  "version": "1.0.0",
+  "description": "A sample project",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
+ 

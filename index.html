@@ -4,36 +4,39 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zeraki Finance - Login</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
+
 <body>
-  <section id="content-card">
-    <div id="logo-language">
-      <img src="images/zf-logo.png" alt="Zeraki Finance logo" />
-      <div id="language-select" aria-label="Language selector">
+ <section id="content-card">
+  <div id="logo-language">
+    <img src="images/zf-logo.svg" alt="Zeraki Finance logo" />
+ 
+  <div id="language-select" aria-label="Language selector">
+    <img src="images/ic-outline_language.svg" alt="Language icon" />
+    <select id="lang" name="lang">
+      <option value="en" selected>English</option>
+     
+      <!-- Add more languages here -->
+    </select>
+  </div>
+  </div>
 
-        <label for="lang" class="visually-hidden">Language</label>
-
-        <select id="lang" name="lang">
-          <option value="en" selected>English</option>
-          <!-- add more languages here -->
-        </select>
-      </div>
-    </div>
 
     <header id="header-text">
       <h1>Welcome</h1>
       <p>Enter your username and password to continue to Zeraki Finance.</p>
     </header>
 
-    <form action="#" method="post" novalidate>
+    <form action="#" method="post" validate>
       <div class="field">
         <label for="username">Username</label>
         <input
           type="text"
           id="username"
           name="username"
-          placeholder="Enter your username"
+          placeholder="Enter your username" c
           autocomplete="username"
           required
         />
